@@ -15,7 +15,7 @@ export default function Home() {
               alt="Picture of the author"
             ></Image>
           </div>
-          Cooming soon, Stay tuned!
+          Coming soon, Stay tuned!
         </div>
       </Wrapper>
     </>
