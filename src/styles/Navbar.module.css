@@ -24,6 +24,7 @@
 .menu {
     display: none;
     cursor: pointer;
+    height: 1.5rem;
 }
 
 @media screen and (max-width: 62.5rem) {

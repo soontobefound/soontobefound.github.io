@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className={styles.nav_container}>
         <Image
           src="/logo.svg"
-          width={250}
+          width={240}
           height={50}
           alt="Picture of the author"
         ></Image>
