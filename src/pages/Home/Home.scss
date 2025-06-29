@@ -1,0 +1,102 @@
+.home-main__container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    .home-logo__container {
+        font-family: "Geist Mono";
+        font-weight: 100;
+        letter-spacing: -1px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        img {
+            height: 24px;
+        }
+    }
+
+    .home-stack__slider {
+        overflow: hidden;
+        width: 100%;
+        max-width: 630px;
+        height: 100px;
+        position: relative;
+        margin-top: 2rem;
+    }
+
+    .home-stack__track {
+        display: flex;
+        width: calc(80px * 22); // 11 logos * 2
+        animation: scroll 25s linear infinite;
+    }
+
+    .home-stack__slide {
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-stack__slide img {
+        max-height: 80px;
+        object-fit: contain;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .home-stack__slider:hover .home-stack__track {
+        animation-play-state: paused;
+    }
+
+    .home-button__container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+
+        div {
+            cursor: pointer;
+            border-radius: 8px;
+            padding: 12px 18px;
+            text-align: center;
+        }
+
+        .button-telegram {
+            background-color: rgba(255, 255, 255, 0.103);
+            font-weight: 200;
+        }
+
+        .button-cal {
+            background-color: rgba(255, 255, 255, 0.87);
+            color: #080808;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .home-main__container {
+        .home-button__container {
+            bottom: 0px;
+            top: auto;
+            right: auto;
+            width: calc(-32px + 100%);
+        }
+    }
+}
