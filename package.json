@@ -7,7 +7,8 @@
     "dev": "bun vite",
     "build": "bun vite build",
     "lint": "eslint .",
-    "preview": "bun vite preview"
+    "preview": "bun vite preview",
+    "deploy": "bun run build && touch dist/.nojekyll && git add dist && git commit -m 'Deploy' && git subtree push --prefix dist origin main"
   },
   "dependencies": {
     "react": "^19.1.0",
