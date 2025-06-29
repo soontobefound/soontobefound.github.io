@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bun vite",
-    "build": "bun vite build",
+    "dev": "bunx vite",
+    "build": "bunx vite build",
     "lint": "eslint .",
-    "preview": "bun vite preview",
-    "deploy": "bun run build && touch dist/.nojekyll && git add dist && git commit -m 'Deploy' && git subtree push --prefix dist origin main"
+    "preview": "bunx vite preview"
   },
   "dependencies": {
     "react": "^19.1.0",
