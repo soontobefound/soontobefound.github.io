@@ -26,13 +26,20 @@ export default function Home() {
           <div>Accepting projects for Q3 2025 ✨</div>
         </div>
 
-        <div className="home-stack__slider">
-          <div className="home-stack__track">
-            {[...logos, ...logos].map((src, index) => (
-              <div className="home-stack__slide" key={index}>
-                <img src={src} alt={`logo ${index}`} />
-              </div>
-            ))}
+        <div className="home-stack__container">
+          <div className="home-stack__slider">
+            <div className="home-stack__track">
+              {[...logos, ...logos].map((src, index) => (
+                <div className="home-stack__slide" key={index}>
+                  <img
+                    src={src}
+                    height="32px"
+                    width="32px"
+                    alt={`logo ${index}`}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
