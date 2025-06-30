@@ -15,7 +15,8 @@
         letter-spacing: -1px;
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 4px;
+        align-items: center;
 
         img {
             height: 24px;
@@ -25,6 +26,7 @@
     .home-stack__container {
         height: 100px;
         margin-top: 2rem;
+        width: 100%;
 
         .home-stack__slider {
         overflow: hidden;
