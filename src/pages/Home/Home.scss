@@ -45,8 +45,8 @@
     }
 
     .home-stack__slide img {
-        max-height: 80px;
-        object-fit: contain;
+        height: 32px;
+        width: 32px;
     }
 
     @keyframes scroll {
