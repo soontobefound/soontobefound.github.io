@@ -27,6 +27,8 @@
         height: 100px;
         margin-top: 2rem;
         width: 100%;
+        display: flex;
+        justify-content: center;
 
         .home-stack__slider {
         overflow: hidden;
