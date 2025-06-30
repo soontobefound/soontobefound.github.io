@@ -22,13 +22,15 @@
         }
     }
 
-    .home-stack__slider {
+    .home-stack__container {
+        height: 100px;
+        margin-top: 2rem;
+
+        .home-stack__slider {
         overflow: hidden;
         width: 100%;
         max-width: 630px;
-        height: 100px;
         position: relative;
-        margin-top: 2rem;
     }
 
     .home-stack__track {
@@ -44,10 +46,6 @@
         align-items: center;
     }
 
-    .home-stack__slide img {
-        height: 32px;
-        width: 32px;
-    }
 
     @keyframes scroll {
         0% {
@@ -60,6 +58,8 @@
 
     .home-stack__slider:hover .home-stack__track {
         animation-play-state: paused;
+    }
+
     }
 
     .home-button__container {
