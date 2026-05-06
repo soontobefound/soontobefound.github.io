@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="home-logo__container">
         <LogoSoontobefound height="40px" width="213px" />
-        <div>Accepting projects for Q3 2025 ✨</div>
+        <div>Open to selected client partnerships ✨</div>
       </div>
 
       <div className="home-stack__container">
