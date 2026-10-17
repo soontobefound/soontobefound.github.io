@@ -141,7 +141,7 @@ export default function Home() {
             <div className="about-sub-cont">
               <div className="sub-title">Offerings</div>
               <div className="offer-cont">
-                <div className="about-sub-cont">
+                <div className="about-sub-cont offer-padding">
                   <div className="sub-sub-title">Product & Design</div>
                   <div className="offer-sub-cont">
                     <div className="about-desc-cont">
@@ -155,7 +155,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="about-sub-cont">
+                <div className="about-sub-cont offer-padding">
                   <div className="sub-sub-title">Social media & marketing</div>
                   <div className="offer-sub-cont">
                     <div>Launch videos</div>
@@ -166,7 +166,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="about-sub-cont">
+                <div className="about-sub-cont offer-padding">
                   <div className="sub-sub-title">Other verticals</div>
                   <div className="offer-sub-cont">
                     <div>Income Tax & GST, Custom fabric manufacturing, ECG report</div>

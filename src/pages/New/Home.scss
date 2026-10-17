@@ -141,12 +141,22 @@
 
       .offer-cont {
         display: flex;
-        padding: 12px 0 12px 16px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 32px;
+        gap: 8px;
         align-self: stretch;
-        border-left: 1px solid rgba(0, 0, 0, 0.24);
+
+        .offer-padding {
+          display: flex;
+          padding: 12px 16px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+          border-radius: 8px;
+          background: #fff;
+        }
 
         .offer-sub-cont {
           display: flex;
