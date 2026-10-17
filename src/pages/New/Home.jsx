@@ -90,10 +90,34 @@ export default function Home() {
               <div className="sub-title">Team</div>
               <div className="img-cont">
                 <div className="img-sub-cont">
-                  <img loading="lazy" width={40} height={40} src={`./team/member-1.webp`} alt="member-1" /> 
-                  <img loading="lazy" width={40} height={40} src={`./team/member-2.webp`} alt="member-2" />
-                  <img loading="lazy" width={40} height={40} src={`./team/member-3.webp`} alt="member-3" />
-                  <img loading="lazy" width={40} height={40} src={`./team/member-4.webp`} alt="member-4" />
+                  <img
+                    loading="lazy"
+                    width={40}
+                    height={40}
+                    src={`./team/member-1.webp`}
+                    alt="member-1"
+                  />
+                  <img
+                    loading="lazy"
+                    width={40}
+                    height={40}
+                    src={`./team/member-2.webp`}
+                    alt="member-2"
+                  />
+                  <img
+                    loading="lazy"
+                    width={40}
+                    height={40}
+                    src={`./team/member-3.webp`}
+                    alt="member-3"
+                  />
+                  <img
+                    loading="lazy"
+                    width={40}
+                    height={40}
+                    src={`./team/member-4.webp`}
+                    alt="member-4"
+                  />
                 </div>
                 +more
               </div>
@@ -102,40 +126,44 @@ export default function Home() {
               <div className="sub-title">Servicing in</div>
               <div>United States, India, UAE, Singapore, Canada</div>
               <div className="note">
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 14 14"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 6.70834L7 9.62501"
-                    stroke-width="0.875"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke="black"
-                    stroke-opacity="0.64"
-                  />
-                  <path
-                    d="M7 4.38083L7.00583 4.37435"
-                    stroke-width="0.875"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke="black"
-                    stroke-opacity="0.64"
-                  />
-                  <path
-                    d="M12.8337 6.99999C12.8337 10.2217 10.222 12.8333 7.00033 12.8333C3.77866 12.8333 1.16699 10.2217 1.16699 6.99999C1.16699 3.77833 3.77866 1.16666 7.00033 1.16666C10.222 1.16666 12.8337 3.77833 12.8337 6.99999Z"
-                    stroke-width="0.875"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke="black"
-                    stroke-opacity="0.64"
-                  />
-                </svg>
-                Note that this is an invite-only service; if you have a
-                referral, please contact your source.
+                <div>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 6.70834L7 9.62501"
+                      stroke-width="0.875"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke="black"
+                      stroke-opacity="0.64"
+                    />
+                    <path
+                      d="M7 4.38083L7.00583 4.37435"
+                      stroke-width="0.875"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke="black"
+                      stroke-opacity="0.64"
+                    />
+                    <path
+                      d="M12.8337 6.99999C12.8337 10.2217 10.222 12.8333 7.00033 12.8333C3.77866 12.8333 1.16699 10.2217 1.16699 6.99999C1.16699 3.77833 3.77866 1.16666 7.00033 1.16666C10.222 1.16666 12.8337 3.77833 12.8337 6.99999Z"
+                      stroke-width="0.875"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke="black"
+                      stroke-opacity="0.64"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  Note that this is an invite-only service; if you have a
+                  referral, please contact your source.
+                </div>
               </div>
             </div>
             <div className="about-sub-cont">
@@ -169,7 +197,9 @@ export default function Home() {
                 <div className="about-sub-cont offer-padding">
                   <div className="sub-sub-title">Other verticals</div>
                   <div className="offer-sub-cont">
-                    <div>Income Tax & GST, Custom fabric manufacturing, ECG report</div>
+                    <div>
+                      Income Tax & GST, Custom fabric manufacturing, ECG report
+                    </div>
                     {/* <div className="about-desc-cont">
                       Custom fabric manufacturing
                       <span>{`(Bulk orders only)`}</span>
