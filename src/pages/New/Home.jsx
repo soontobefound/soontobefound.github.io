@@ -90,10 +90,10 @@ export default function Home() {
               <div className="sub-title">Team</div>
               <div className="img-cont">
                 <div className="img-sub-cont">
-                  <img width={40} height={40} src={`./team/member-1.webp`} alt="member-1" /> 
-                  <img width={40} height={40} src={`./team/member-2.webp`} alt="member-2" />
-                  <img width={40} height={40} src={`./team/member-3.webp`} alt="member-3" />
-                  <img width={40} height={40} src={`./team/member-4.webp`} alt="member-4" />
+                  <img loading="lazy" width={40} height={40} src={`./team/member-1.webp`} alt="member-1" /> 
+                  <img loading="lazy" width={40} height={40} src={`./team/member-2.webp`} alt="member-2" />
+                  <img loading="lazy" width={40} height={40} src={`./team/member-3.webp`} alt="member-3" />
+                  <img loading="lazy" width={40} height={40} src={`./team/member-4.webp`} alt="member-4" />
                 </div>
                 +more
               </div>
