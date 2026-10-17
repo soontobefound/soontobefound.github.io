@@ -169,12 +169,12 @@ export default function Home() {
                 <div className="about-sub-cont">
                   <div className="sub-sub-title">Other verticals</div>
                   <div className="offer-sub-cont">
-                    <div>Income Tax & GST filing</div>
-                    <div className="about-desc-cont">
+                    <div>Income Tax & GST, Custom fabric manufacturing, ECG report</div>
+                    {/* <div className="about-desc-cont">
                       Custom fabric manufacturing
                       <span>{`(Bulk orders only)`}</span>
                     </div>
-                    <div>ECG report generation</div>
+                    <div>ECG report generation</div> */}
                   </div>
                 </div>
               </div>
