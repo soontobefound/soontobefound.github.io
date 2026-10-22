@@ -126,7 +126,7 @@ export default function Home() {
                     alt="member-5"
                   />
                 </div>
-                +more
+                + many more
               </div>
             </div>
             <div className="about-sub-cont">
