@@ -118,6 +118,13 @@ export default function Home() {
                     src={`./team/member-4.webp`}
                     alt="member-4"
                   />
+                  <img
+                    loading="lazy"
+                    width={40}
+                    height={40}
+                    src={`./team/member-5.webp`}
+                    alt="member-5"
+                  />
                 </div>
                 +more
               </div>
